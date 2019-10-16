@@ -47,7 +47,6 @@ export default {
           var nm = res.data.data.nm
           var id = res.data.data.id
           if( this.$store.state.city.id == id ){ return }
-
           messageBox({
             title : '定位',
             content : nm,
